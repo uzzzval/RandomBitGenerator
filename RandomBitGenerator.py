@@ -2,9 +2,11 @@ import datetime
 import binascii
 import random
 
+#Getting the current time
 time=datetime.datetime.now()
 timeString=str(time)
 
+#Omitting redundant characters
 timeString=timeString.replace("-","")
 timeString=timeString.replace(":","")
 timeString=timeString.replace(".","")
