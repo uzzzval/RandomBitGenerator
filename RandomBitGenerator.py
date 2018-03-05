@@ -33,3 +33,4 @@ finalString = str(finalString)[2:]
 #Finally printing the randomly generated binary string
 print finalString
 
+
